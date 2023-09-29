@@ -5,7 +5,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Plataforma</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
@@ -14,8 +13,7 @@
             <table class="table">
                 <tr>
                     <th>Id</th>
-                    <th>Nome</th>
-                    <th>Fornecedor</th>
+                    <th>Título</th>
                     <th>&nbsp;</th>
                 </tr>
                 <c:forEach var="item" items="${jogos}">
